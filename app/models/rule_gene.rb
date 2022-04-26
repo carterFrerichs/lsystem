@@ -1,0 +1,3 @@
+class RuleGene
+
+end

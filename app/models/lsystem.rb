@@ -1,13 +1,11 @@
 class Lsystem
+  include Evlovable
+
+  def self.search_space
+    ["RuleGene", 1..5]
+  end
+
   def axiom
-  end
-
-  def rules
-  end
-
-  def angle
-  end
-
-  def length
+    "F"
   end
 end
